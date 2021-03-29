@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,50 +8,210 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" type="image/png" href="images/logo.png">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Kenneth Martinez</title>
 </head>
+
 <body>
-        <div>
-            <ul class="nav justify-content-center sticky-top mt-5">
-                <li class="nav-item">
+        <!-- NAVBAR SECTION -->
+
+        <ul class="nav nav-pills justify-content-center sticky-top mt-5">
+            <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
-                </li>
-                <li class="nav-item">
+            </li>
+            <li class="nav-item">
                 <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
+            </li>
+            <li class="nav-item">
                 <a class="nav-link" href="#">Resume</a>
-                </li>
-                <li class="nav-item">
+            </li>
+            <li class="nav-item">
                 <a class="nav-link " href="#" tabindex="-1">Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-            </ul>
-         <div>
-                <video autoplay muted loop id="myVideo">
-                    <source src="images/Coding.mp4" type="video/mp4">
-                </video>
-                <h1>This is text</h1>
-        </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+        </ul>
+
+        <!-- VIDEO SECTION -->
+
+        <video autoplay muted loop id="myVideo" src="images/Coding.mp4" type="video/mp4" >
+        </video> 
+
+    <!-- NAME SECTION-->
+
+    <section class="first-text">Hello, I'm Kenneth <br>Junior Web Developer
+    </section>
+    
+    <!-- ABOUT  SECTION  -->
+
+    <div class=" container-fluid-1 ">
+        <!-- <div class="introduction"><h1 class="intro">Get to Know Me</h1>
+        </div> -->
+
+        
+       
+
+        <div class="row first-section">
+
+                <img class="myImg" src="./images/personal_photo.jpeg" alt="persphoto">
+
+                <p class="know-me">Get to know me</p>
             
+        <div>
+        <div class="column">
+            <div class="card mt-1" style="width: 20rem;">
+                <img class="card-img-top" src="./images/connection.jpg" alt="Card image cap">
+                <div class="card-body">
+                <p class="card-text">Connection <br> The third level of Maslow’s hierarchy says that belonginess and love needs are part of the human needs. We love technology because it connects us to those we love and things we care about.  </p>
+                </div>
+            </div>
+        </div>
+
+            <div class="column">
+                <div class="card mt-1" style="width: 20rem;">
+                    <img class="card-img-top" src="./images/create.jpg" alt="Card image cap">
+                    <div class="card-body">
+                    <p class="card-text">Creation <br>
+                        Now more than ever, we have the opportunity to create and shape the technological revolution through programming and I’m glad I get to be a part of it.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card mt-1" style="width: 20rem;">
+                    <img class="card-img-top" src="./images/growth.jpg" alt="Card image cap">
+                    <div class="card-body">
+                    <p class="card-text">Growth <br>
+                        You can teach old dogs new tricks, we just have to be willing to learn them. We are 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+
+
+    </div>
+
+    <!-- PROJECTS SECTION  -->
+
+    <div class="container-lg project">PROJECTS SECTION
+        <div class="w3-card-4">
+            <img src="img_snowtops.jpg" alt="Alps">
+            <div class="w3-container w3-center">
+              <p>The Italian / Austrian Alps</p>
+            </div>
+          </div>
+          <div class="w3-card-4">
+            <img src="img_snowtops.jpg" alt="Alps">
+            <div class="w3-container w3-center">
+              <p>The Italian / Austrian Alps</p>
+            </div>
+          </div>
+          <div class="w3-card-4">
+            <img src="img_snowtops.jpg" alt="Alps">
+            <div class="w3-container w3-center">
+              <p>The Italian / Austrian Alps</p>
+            </div>
+          </div>
+          <div class="w3-card-4">
+            <img src="img_snowtops.jpg" alt="Alps">
+            <div class="w3-container w3-center">
+              <p>The Italian / Austrian Alps</p>
+            </div>
+          </div>
+
     </div>
     
-    <div class="container-fluid">100% wide until large breakpoint</div>
-    <div class="container-lg">100% wide until large breakpoint</div>
+
+
+
+
+
+
+    <div class="container-lg">BLOG</div>
 
     <div class="container-lg">100% wide until large breakpoint</div>
 
-    <div class="container-lg">100% wide until large breakpoint</div>
-    <div class="container-lg">100% wide until large breakpoint</div>
+    <!-- CONTACT SECTION  -->
 
-
-
+    <div class="container-lg contact">100% CONTACT SECTION wide until large breakpoint
     
+        <div class="contact-form">
+        <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
+            <fieldset id="fs-frm-inputs">
+              <label for="full-name">Full Name</label>
+              <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+              <label for="email-address">Email Address</label>
+              <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+              <label for="message">Message</label>
+              <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
+              <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+            </fieldset>
+            <input type="submit" value="Submit">
+
+          </form>
+
+        </div>
+          
+          <style>/* reset */
+
+          
+          </style>
+    
+    </div> 
+
+    <!-- FOOTER SECTION  -->
+
+    <div class="container-lg">100% FOOTER SECTION wide until large 
+        breakpoint
+
+        <div class="footer">
+            <p>Footer</p>
+          </div>
+    
+        <!-- <div class="footer-dark">
+            <footer>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-3 item">
+                            <h3>Services</h3>
+                            <ul>
+                                <li><a href="#">Web design</a></li>
+                                <li><a href="#">Development</a></li>
+                                <li><a href="#">Hosting</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6 col-md-3 item">
+                            <h3>About</h3>
+                            <ul>
+                                <li><a href="#">Company</a></li>
+                                <li><a href="#">Team</a></li>
+                                <li><a href="#">Careers</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 item text">
+                            <h3>Company Name</h3>
+                            <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
+                        </div>
+                        <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+                    </div>
+                    <p class="copyright">Company Name © 2018</p>
+                </div>
+            </footer>
+        </div> -->
+    </div> 
 
 
-    <script>src="portfolio.js"</script>
+
+
+
+
+    <script>src = "portfolio.js"</script>
 </body>
+
 </html>

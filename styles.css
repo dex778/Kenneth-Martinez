@@ -1,12 +1,243 @@
-video{
-    opacity: .7;
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:wght@500&display=swap');
+
+
+/* #myVideo{
+    position: relative;
+    right: 0;
+    bottom: 0;
+    
+} */
+
+.body{
+
 }
+
+
+/* THIS IS VIDEO ONE CSS *//* THIS IS SECTION VIDEO CSS *//* THIS IS SECTION VIDEO CSS */
 
 ul{
     background-color: white;
 }
 
-/* div{
-    background-color: wheat;
-    border: solid black;
-} */
+
+video{
+    opacity: 1;
+    width: 100vw;
+}
+
+.first-text{
+    font-family: 'Brygada 1918', serif;
+    color: white;
+    position: absolute;
+    font-size: 2rem;
+    top: 50%;
+    left: 5%;
+}
+
+
+
+div.container-fluid-1{
+    border: solid black 2px;
+    background-color: rgb(175, 155, 118);
+}
+
+
+/* THIS IS SECTION GET TO KNOW ME CSS *//* THIS IS SECTION GET TO KNOW ME CSS */
+
+
+div.first-section{
+    display: grid;
+    background-color: white;
+    margin-top: 0;
+
+}
+
+.myImg{
+    border-radius: 50% ;
+    position: absolute;
+    left: 80px;
+    width: 200px;
+    height: 200px;
+    margin-top: 65px;
+    top:auto;
+}
+
+.know-me{
+    text-align: center;
+}
+
+
+
+.card{
+    /* position: absolute; */
+}
+
+.introduction{
+    text-align: center;
+    font-family: 'Brygada 1918', serif;
+
+}
+.row{
+    position: relative;
+    justify-content: center;
+    border-spacing: 15px 50px;
+}
+
+.column {
+    float: right;
+    /* width: 25%; */
+    padding: 20px 20px 20px 20px;
+  
+  }
+
+.card-img-top{
+    width: 300px;
+    height: 300px;
+    object-fit: fill;
+
+}
+.card-body{
+    text-align: justify;
+    border-radius: 20px;
+    font-family: 'Brygada 1918', serif;
+}
+
+.card-text{
+    
+}
+
+/* THIS IS SECTION PRIJECTS CSS *//* THIS IS SECTION PROJECTS CSS *//* THIS IS SECTION PROJECTS CSS */
+
+div.project{
+    background-color: turquoise;
+}
+
+/* CONTACT SECTION === CONTACT SECTION */
+
+.contact-form{
+    /* background-color: white; */
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    height: 500px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.container-lgcontact{
+    background-color: white;
+}
+
+#fs-frm input,
+          #fs-frm select,
+          #fs-frm textarea,
+          #fs-frm fieldset,
+          #fs-frm optgroup,
+          #fs-frm label,
+          #fs-frm #card-element:disabled {
+            font-family: inherit;
+            font-size: 100%;
+            color: inherit;
+            border: none;
+            border-radius: 0;
+            display: block;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+          }
+          #fs-frm label,
+          #fs-frm legend,
+          #fs-frm ::placeholder {
+            font-size: .825rem;
+            margin-bottom: .5rem;
+            padding-top: .2rem;
+            display: flex;
+            align-items: baseline;
+          }
+          
+          /* border, padding, margin, width */
+          #fs-frm input,
+          #fs-frm select,
+          #fs-frm textarea,
+          #fs-frm #card-element {
+            border: 1px solid rgba(0,0,0,0.2);
+            background-color: rgba(255,255,255,0.9);
+            padding: .75em 1rem;
+            margin-bottom: 1.5rem;
+          }
+          #fs-frm input:focus,
+          #fs-frm select:focus,
+          #fs-frm textarea:focus {
+            background-color: white;
+            outline-style: solid;
+            outline-width: thin;
+            outline-color: gray;
+            outline-offset: -1px;
+          }
+          #fs-frm [type="text"],
+          #fs-frm [type="email"] {
+            width: 100%;
+          }
+          #fs-frm [type="button"],
+          #fs-frm [type="submit"],
+          #fs-frm [type="reset"] {
+            width: auto;
+            cursor: pointer;
+            -webkit-appearance: button;
+            -moz-appearance: button;
+            appearance: button;
+          }
+          #fs-frm [type="button"]:focus,
+          #fs-frm [type="submit"]:focus,
+          #fs-frm [type="reset"]:focus {
+            outline: none;
+          }
+          #fs-frm [type="submit"],
+          #fs-frm [type="reset"] {
+            margin-bottom: 0;
+          }
+          #fs-frm select {
+            text-transform: none;
+          }
+          
+          #fs-frm [type="checkbox"] {
+            -webkit-appearance: checkbox;
+            -moz-appearance: checkbox;
+            appearance: checkbox;
+            display: inline-block;
+            width: auto;
+            margin: 0 .5em 0 0 !important;
+          }
+          
+          #fs-frm [type="radio"] {
+            -webkit-appearance: radio;
+            -moz-appearance: radio;
+            appearance: radio;
+          }
+          
+          /* address, locale */
+          #fs-frm fieldset.locale input[name="city"],
+          #fs-frm fieldset.locale select[name="state"],
+          #fs-frm fieldset.locale input[name="postal-code"] {
+            display: inline;
+          }
+          #fs-frm fieldset.locale input[name="city"] {
+            width: 52%;
+          }
+          #fs-frm fieldset.locale select[name="state"],
+          #fs-frm fieldset.locale input[name="postal-code"] {
+            width: 20%;
+          }
+          #fs-frm fieldset.locale input[name="city"],
+          #fs-frm fieldset.locale select[name="state"] {
+            margin-right: 3%;
+          }
+
+
+
+          /* FOOTER -----> FOOTER */
+
+          
