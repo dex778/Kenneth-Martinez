@@ -106,13 +106,32 @@ div.first-section{
     
 }
 
-/* THIS IS SECTION PRIJECTS CSS *//* THIS IS SECTION PROJECTS CSS *//* THIS IS SECTION PROJECTS CSS */
+/* THIS IS SECTION PROJECTS CSS *//* THIS IS SECTION PROJECTS CSS *//* THIS IS SECTION PROJECTS CSS */
 
 div.project{
-    background-color: turquoise;
+    background-color: #A9A9A9;
 }
 
+.w3-card-4{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.projImg{
+    background-image: url(https://codepen.io/Dex778/pen/ExNNvvb);
+    height: 300px;
+    width: 300px; 
+    object-fit: cover;
+    border-radius: 10px;
+  
+} 
+
 /* CONTACT SECTION === CONTACT SECTION */
+
+div.contact{
+    background-color: #A9A9A9;
+}
 
 .contact-form{
     /* background-color: white; */
