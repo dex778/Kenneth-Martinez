@@ -1,33 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Brygada+1918:wght@500&display=swap');
 
-
-/* #myVideo{
-    position: relative;
-    right: 0;
-    bottom: 0;
-    
-} */
-
-.body{
-
+html{
+  margin: 0;
 }
-
-
 /* THIS IS VIDEO ONE CSS *//* THIS IS SECTION VIDEO CSS *//* THIS IS SECTION VIDEO CSS */
 
-ul{
-    background-color: white;
+ul {
+  background-color: gray;
+  color: white;
 }
 
 
-.nav-link.active{
+/* .nav-link.active{
    background-color: coral !important;
-}
+} */
+
 
 video{ 
+  /* position: absolute; */
     opacity: 1;
     width: 100vw;
     height: 100vh;
+    object-fit: none;
 
 }
 
@@ -42,7 +36,7 @@ video{
 
 
 
-div.container-fluid-1{
+.container-fluid-1{
     /* border: solid black 2px; */
     background-color: rgb(175, 155, 118);
 }
@@ -54,7 +48,7 @@ div.container-fluid-1{
 div.first-section{
     display: grid;
     background-color: white;
-    height: 100vh;
+    min-height: 100vh;
 
 }
 
@@ -64,7 +58,7 @@ div.first-section{
     left: 80px;
     width: 200px;
     height: 200px;
-    margin-top: 65px;
+    margin-top: 145px;
     top:auto;
 }
 
@@ -127,7 +121,7 @@ div.first-section{
 div.project{
   opacity: .9;
   background-color: black;
-  height: 100vh;
+  min-height: 100vh;
   
 }
 
@@ -304,17 +298,11 @@ div.contact{
 /* FOOTER -----> FOOTER */
 
 
-.social-footer{
+.secFooter{
   border: solid black 2px;
-}
-
-div.footerEnd{
-  background-color: black;
+  background-color: #696969;
 }
 
 
-.footerTitle{
-  color: white;
-}
 
           
