@@ -20,9 +20,15 @@ ul{
 }
 
 
-video{
+.nav-link.active{
+   background-color: coral !important;
+}
+
+video{ 
     opacity: 1;
     width: 100vw;
+    height: 100vh;
+
 }
 
 .first-text{
@@ -37,7 +43,7 @@ video{
 
 
 div.container-fluid-1{
-    border: solid black 2px;
+    /* border: solid black 2px; */
     background-color: rgb(175, 155, 118);
 }
 
@@ -48,7 +54,7 @@ div.container-fluid-1{
 div.first-section{
     display: grid;
     background-color: white;
-    margin-top: 0;
+    height: 100vh;
 
 }
 
@@ -64,11 +70,14 @@ div.first-section{
 
 .know-me{
     text-align: center;
+    font-family: 'Brygada 1918', serif;
+    font-size: 45px;
 }
 
 
 
-.card{
+.card:hover{
+  cursor: pointer;
     /* position: absolute; */
 }
 
@@ -102,14 +111,28 @@ div.first-section{
     font-family: 'Brygada 1918', serif;
 }
 
-.card-text{
-    
-}
 
 /* THIS IS SECTION PROJECTS CSS *//* THIS IS SECTION PROJECTS CSS *//* THIS IS SECTION PROJECTS CSS */
 
+
+
+.projTitle{
+    text-align: center;
+    font-family: 'Brygada 1918', serif;
+    font-size: 45px;
+    color: white;
+    /* opacity: .7; */
+}
+
 div.project{
-    background-color: #A9A9A9;
+  opacity: .9;
+  background-color: black;
+  height: 100vh;
+  
+}
+
+.secTitles{
+  color: white;
 }
 
 .w3-card-4{
@@ -119,7 +142,6 @@ div.project{
 }
 
 .projImg{
-    background-image: url(https://codepen.io/Dex778/pen/ExNNvvb);
     height: 300px;
     width: 300px; 
     object-fit: cover;
@@ -127,10 +149,28 @@ div.project{
   
 } 
 
+.project{
+  border-color: black;
+}
+
 /* CONTACT SECTION === CONTACT SECTION */
 
 div.contact{
-    background-color: #A9A9A9;
+
+    background-color: white;
+}
+
+.contactTitleDiv{
+  /* margin-top: 0px; */
+}
+
+.contactTitle{
+  text-align: center;
+  font-family: 'Brygada 1918', serif;
+  font-size: 45px;
+  color: black;
+  margin-top: 60px;
+  margin-bottom: 20px;
 }
 
 .contact-form{
@@ -144,8 +184,11 @@ div.contact{
     margin-top: 20px;
 }
 
+
+
 .container-lgcontact{
     background-color: white;
+    
 }
 
 #fs-frm input,
@@ -166,6 +209,7 @@ div.contact{
             margin: 0;
             -webkit-appearance: none;
             -moz-appearance: none;
+            /* background-color: brown; */
           }
           #fs-frm label,
           #fs-frm legend,
@@ -257,6 +301,20 @@ div.contact{
 
 
 
-          /* FOOTER -----> FOOTER */
+/* FOOTER -----> FOOTER */
+
+
+.social-footer{
+  border: solid black 2px;
+}
+
+div.footerEnd{
+  background-color: black;
+}
+
+
+.footerTitle{
+  color: white;
+}
 
           
