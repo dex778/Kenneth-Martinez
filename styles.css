@@ -2,6 +2,8 @@
 
 html{
   margin: 0;
+  scroll-behavior: smooth;
+
 }
 /* THIS IS VIDEO ONE CSS *//* THIS IS SECTION VIDEO CSS *//* THIS IS SECTION VIDEO CSS */
 
@@ -44,7 +46,7 @@ video{
   cursor: pointer;
   transition: all 0.4s ease-in-out;
   top: 85%;
-  left: 5%;
+  left: 3%;
   opacity: .9;
 }
 .sect-1-button:hover{
@@ -58,6 +60,14 @@ video{
     font-size: 2.5rem;
     top: 68%;
     left: 5%;
+}
+
+#logo{
+  position: absolute;
+  top: 5%;
+  width: 40px;
+  height: 40px;
+  left: 5%;
 }
 
 
@@ -328,16 +338,27 @@ div.contact{
 /* FOOTER -----> FOOTER */
 
 
-.secFooter{
-  border: solid black 2px;
-  background-color: black;
-  opacity: .8;
+.footer{
+  height: 150px;
+  background: #141414	;
+  margin-bottom: 0;
+  opacity: .9;
 }
 
-ul
-
-.flex-container{
-  display: flex;
+.fa {
+  padding: 20px;
+  font-size: 80px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 80px;
+  margin: 5px 2px;
+  color: white;
 }
 
-          
+.name{
+  align-items: center;
+  color: white;
+  text-align: center;
+  
+}
