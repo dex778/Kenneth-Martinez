@@ -5,11 +5,14 @@ html{
 }
 /* THIS IS VIDEO ONE CSS *//* THIS IS SECTION VIDEO CSS *//* THIS IS SECTION VIDEO CSS */
 
-ul {
-  background-color: gray;
-  color: white;
+.nav{
+  background-color: black;
+  opacity: .8;
 }
 
+.nav-link{
+  color: white;
+}
 
 /* .nav-link.active{
    background-color: coral !important;
@@ -25,12 +28,35 @@ video{
 
 }
 
+.sect-1-button {
+  position: absolute;
+  color: white;
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  background-color: tomato;
+  text-decoration-line: white;
+  border: none;
+  padding: 10px 50px;
+  margin: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  top: 85%;
+  left: 5%;
+  opacity: .9;
+}
+.sect-1-button:hover{
+  transform: scale(1.09);
+}    
+
 .first-text{
     font-family: 'Brygada 1918', serif;
     color: white;
     position: absolute;
-    font-size: 2rem;
-    top: 50%;
+    font-size: 2.5rem;
+    top: 68%;
     left: 5%;
 }
 
@@ -66,6 +92,7 @@ div.first-section{
     text-align: center;
     font-family: 'Brygada 1918', serif;
     font-size: 45px;
+    padding-top: 40px;
 }
 
 
@@ -115,6 +142,8 @@ div.first-section{
     font-family: 'Brygada 1918', serif;
     font-size: 45px;
     color: white;
+    margin-bottom: 50px;
+    padding-top: 40px;
     /* opacity: .7; */
 }
 
@@ -150,7 +179,8 @@ div.project{
 /* CONTACT SECTION === CONTACT SECTION */
 
 div.contact{
-
+  height: 100vh;
+ 
     background-color: white;
 }
 
@@ -163,8 +193,8 @@ div.contact{
   font-family: 'Brygada 1918', serif;
   font-size: 45px;
   color: black;
-  margin-top: 60px;
-  margin-bottom: 20px;
+  padding-top: 40px;
+  margin-bottom: 120px;
 }
 
 .contact-form{
@@ -300,9 +330,14 @@ div.contact{
 
 .secFooter{
   border: solid black 2px;
-  background-color: #696969;
+  background-color: black;
+  opacity: .8;
 }
 
+ul
 
+.flex-container{
+  display: flex;
+}
 
           
